@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Baloo 2', cursive;
+    background-color: #FFFDF6;
+    color: #333;
+  }
+  
+  header {
+    background-color: #FFB6B9;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    color: white;
+  }
+  
+  nav {
+    background-color: #FFD3B5;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+  }
+  
+  nav a {
+    color: #444;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #FF6F61;
+    font-weight: bold;
+  }
+  
+  .container {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .book-card {
+    background-color: #FFEE93;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .book-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .book-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  .book-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #B5EAD7;
+    color: #333;
+    margin-top: 30px;
+  }
+  
